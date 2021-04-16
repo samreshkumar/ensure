@@ -1,0 +1,109 @@
+@media screen and (max-width:990px){
+
+}
+@media screen and (max-width:767px){
+    .display767{
+        display: block;
+    }
+    .navigation{
+        position: fixed;
+        width:280px;
+        background: #000;
+        right:0;
+        height: 100%;
+        margin-top: 5px;
+        padding-top: 15px;
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        -webkit-transition: -webkit-transform 0.4s, visibility 0s 0.4s;
+        transition: transform 0.4s, visibility 0s 0.4s;
+        height: 100%;
+    }
+    .navigation.open{
+        visibility: visible;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    }
+    .navigation ul{
+        flex-wrap: wrap;
+    }
+    .navigation ul li{
+        width: 100%;
+    }
+    .navigation ul li a{
+        color: #fff;
+        padding:10px 15px;
+        display: block;
+    }
+    .navigation ul li a:hover{
+        color: rgba(255,255,255,0.7);
+    }
+    .buynow a {
+        font-size: 13px;
+        padding: 3px 22px;
+    }
+    .header {
+        padding: 5px 0;
+    }
+    .top-nav{
+        padding-bottom: 0;
+    }
+    .search-box{
+        top:86px;
+    }
+}
+
+
+@media screen and (max-width:667px){
+    .divider img{
+        width: 100%;
+    }
+    .divider {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    .home-section211{
+        width: 100%;
+        padding-bottom:30px;
+    }
+    .home-section35-left{
+        padding-bottom:30px;
+    }
+    .home-section35-left, .home-section34-right{
+        width:100%;
+    }
+    .home-section41-left{
+        width: 100%;
+        margin-bottom:30px;
+    }
+    .home-section41-right{
+        width: 100%;
+        margin-bottom:30px;
+    }
+    .home-section51-inner{
+        width: 100%;
+        margin-bottom:20px;
+    }
+    
+}
+
+
+@media screen and (max-width:480px){
+    .home-section35-left-inner{
+        flex-wrap: wrap;
+    }
+    .home-section35-left-inner-left {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .header-social ul li:first-child{
+        display: none;
+    }
+    .header-social ul li:nth-child(2){
+        display: none;
+    }
+
+}

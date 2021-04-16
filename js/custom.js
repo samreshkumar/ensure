@@ -44,6 +44,17 @@
         }
       }
     })
+
+$('.mobile-trigger').click(function(){
+  $('.navigation').toggleClass('open');
+})
+$('.search').click(function(){
+  $('.search-box').show();
+})
+$('.form-close').click(function(){
+  $('.search-box').hide();
+})
+
   })
 
 

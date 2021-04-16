@@ -15,18 +15,19 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/owl.transitions.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
 
     <header class="header">
-        <div class="container">
+        <div class="container-wrapper">
             <div class="row justify-content-between align-items-center">
-                <div class="col-md-4">
+                <div class="col-md-2 col-sm-4 col-4">
                     <div class="logo"><a href="javascript:;"><img src="images/logo.png" alt="logo" title="logo"></a>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-10 col-sm-8 col-8">
                     <div class="top-nav">
                         <div class="buynow"><a href="javascript:;">Buy Now</a></div>
                         <div class="header-social">
@@ -34,10 +35,17 @@
                                 <li><a href="javascript:;"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="javascript:;"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                                 </li>
-                                <li><a href="javascript:;"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="javascript:;" class="search"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
+                        <div class="search-box">
+                            <form class="search-form">
+                                <input type="search" name="search" placeholder="Search" />
+                            </form>
+                            <div class="form-close"><a href="javascript:;"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+                        </div>
                     </div>
+                    <div class="mobile-trigger display767"><a href="javascript:;"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
                     <div class="navigation">
                         <ul>
                             <li><a href="javascript:;">Calculate my muscle age</a></li>
@@ -50,7 +58,7 @@
         </div>
     </header>
     <section class="home-banner">
-        <div class="container">
+        <div class="container-wrapper">
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="home-banner-caption">
@@ -303,7 +311,7 @@
 
 
     <footer class="footer">
-        <div class="container">
+        <div class="container-wrapper">
             <div class="top-footer">
                 <div class="top-footer-left">
                     <ul>
